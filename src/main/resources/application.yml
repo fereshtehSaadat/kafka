@@ -1,0 +1,8 @@
+server:
+  port: 8282
+  tomcat:
+    threads:
+      max: 200
+spring:
+  kafka:
+    bootstrapServers: localhost:9092
